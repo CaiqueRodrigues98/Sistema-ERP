@@ -3,8 +3,8 @@
 
 $host = 'localhost';
 $db   = 'mini_erp';
-$user = 'root'; // Altere para o usuário do seu MySQL
-$pass = '';     // Altere para a senha do seu MySQL
+$user = 'root';
+$pass = 'root';    
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
